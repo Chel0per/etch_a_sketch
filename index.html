@@ -10,7 +10,18 @@
 <body>
     <div class="header">Etch-a-Sketch</div>
     <div class="middle">
-        <div class="buttom-column"></div>
+        <div class="buttoncolumn">
+                <input type="color" class="color" >
+                <input type="color" class="background" value="#FFFFFF">
+                <div class="grid">
+                   <div class="gridtext">32x32</div> 
+                   <input type="range" class="grid" name="Grid" min="8" max="64">
+                </div>
+                <button class="shadow">Light</button>
+                <button class="light">Shadow</button>
+                <button class="eraser">Eraser</button>
+                <button class="clear">Clear</button>
+        </div>
         <div class="container"></div>
     </div>
     <div class="footer"> Copyright © 2022 Chel0per </div>
