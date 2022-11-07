@@ -74,7 +74,7 @@ body {
     font-size: 18px;
 }
 
-.shadow, .clear, .light, .eraser {
+.shadow, .clear, .light, .eraser, .pencil {
     border: #F11625 solid 4px;
     border-radius: 2px;
     background-image: linear-gradient(to bottom right, #5EB1BF, #CDEDF6);
@@ -86,13 +86,15 @@ body {
 }
 
 .container {
-    height: 500px;
-    width: 500px;
+    height: 570px;
+    width: 570px;
     border: #F11625 solid 4px;
     box-sizing: border-box;
     border-radius: 2px;
     display: grid;
     grid-column: 3;
+    grid-template-columns: repeat(36, 1fr);
+    grid-template-rows: repeat(36, 1fr);
 }
 
 
