@@ -74,7 +74,7 @@ body {
     font-size: 18px;
 }
 
-.shadow, .clear, .light, .eraser, .pencil {
+.untoggled {
     border: #F11625 solid 4px;
     border-radius: 2px;
     background-image: linear-gradient(to bottom right, #5EB1BF, #CDEDF6);
@@ -84,6 +84,22 @@ body {
     font-size: 18px;
     cursor: pointer;
 }
+
+.toggled {
+    border: #F11625 solid 4px;
+    border-radius: 2px;
+    background-color: #042A2B;
+    height: 40px;
+    width: 120px;
+    color: #F11625;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.untoggled:hover {
+	background-color: #042A2B;
+	background-image: none;
+  }
 
 .container {
     height: 570px;
